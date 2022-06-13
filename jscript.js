@@ -1,3 +1,6 @@
+window.addEventListener('load', (event) => {
+    console.log('page is fully loaded');
+
 //selector
 const output = document.querySelector(".output");
 const result = document.querySelector(".result");
@@ -35,6 +38,5 @@ function calculate(){
         output.textContent += buttonText;
         return;
     }
-
-  
 }
+ });
